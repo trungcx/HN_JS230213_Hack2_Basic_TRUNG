@@ -1,5 +1,71 @@
+/* My CSS */
+.nav {
+  height: 50px;
+  background-color: orange;
+  line-height: 50px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 10px;
+}
+.add-note {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  /* width: 200px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  height: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.content {
+  border: none;
+  border-radius: 5px;
+  height: 150px;
+}
+.add-btn {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 5px;
+  background: green;
+  color: #fff;
+}
+.add-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.note-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.note {
+  margin: 10px;
+  width: 150px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.content-child {
+  height: 45px;
+}
+.delete {
+  /* margin-bottom: 2px; */
+  text-align: right;
+  padding-right: 10px;
+}
+.delete:hover {
+  cursor: pointer;
+}
+
+/* My CSS end */
 .App {
   text-align: center;
+  background-color: #ccc;
 }
 
 .App-logo {
