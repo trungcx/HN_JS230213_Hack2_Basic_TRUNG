@@ -53,6 +53,7 @@ server.get("/api/v1/notes/:id", (req, res) => {
 });
 // insert row
 server.post("/api/v1/notes", validateData, (req, res) => {
+  console.log("server-post:", req.body);
   const { Content } = req.body;
   const queryString = `INSERT INTO notekeeper (content) VALUES (?)`;
   database.query(queryString, Content, (err, result) => {
